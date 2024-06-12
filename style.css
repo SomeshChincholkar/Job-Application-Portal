@@ -1,0 +1,80 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+html, body{
+    width: 100%;
+    height: 120%;               /* It can be 200% or 300% */
+}
+
+body{
+    background-color: aqua;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+#id1{
+    height: 90%;
+    width: 80%;
+    background-color: white;
+    border: solid black 1px;
+    border-radius: 20px;
+    padding: 1%;
+    padding-top: 20px;
+}
+
+#job{
+    font-size: 50px;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+  
+.labels {
+    display: flex;
+    justify-content: space-around;
+    width: 100%;
+    margin-bottom: 10px;
+    font-size: 18px;
+    font-weight: bold;
+    margin-top: 30px;
+}
+
+.inputs {
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+}
+
+input {
+    width: 46%;
+    border: solid black 1.5px;
+}
+ 
+select{
+    width: 46%;    
+    border: solid black 1.5px;
+}
+
+textarea{
+    width: 100%;
+    border: solid black 1.5px;
+}
+
+button{
+    background-color: red;
+    border: solid black 1px;
+    border-radius: 50px;
+    margin-left: 80%;
+    margin-top: 5%;
+}
+
+#bTag{
+    font-size: 20px;
+    margin-left: 10%;
+}
